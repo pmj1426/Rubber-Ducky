@@ -1,0 +1,19 @@
+CrackInTheWindow2.exe 
+	- cmd/windows/powershell/meterpreter/reverse_tcp 
+	- does not have LHOST or LPORT set
+CrackInTheWindow.exe 
+	- cmd/windows/powershell/meterpreter/reverse_tcp 
+	- does not have LHOST or LPORT set
+duckScript.sh 
+	- bash (self-made)
+SnakeHole 
+	- python/meterpreter/reverse_tcp_ssl
+	- python based reverse shell but no LHOST or LPORT set
+winDuck.bat 
+	- batch file (self-made)
+stagedLinux
+	- linux/x86/shell/reverse_tcp (msfvenom payload)
+	- LHOST and LPORT set to local machine network
+stagedLinux2
+	- linux/x86/shell/reverse_tcp (msfvenom payload)
+	- LHOST and LPORT set to local machine network
